@@ -4,6 +4,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">;
 
     <style>
+
+        html, body {
+        height: 100%;
+        margin: 0;
+        }
+
         .g-logo {
         background-image: url('g-logo.png');
         border: none;
@@ -20,6 +26,7 @@
         overflow: hidden;
         top: 0px;
         background-color: rgba(255, 255, 255, 0.993);
+        z-index: 11;
         }
 
         .srch {
@@ -56,6 +63,7 @@
         color: white;  
         cursor: pointer;
         color: #000;
+        z-index: 11;
     }
 
         .contact-btn {
@@ -68,6 +76,7 @@
         border: none;
         color: white;  
         cursor: pointer;
+        z-index: 11;
     }
 
         .ggle-container {
@@ -93,7 +102,7 @@
         overflow: hidden;
         position: relative;
         border-bottom: 1px solid #ebebeb;
-        z-index: 102;
+        z-index: 10;
         }
 
         .result-cat a {
@@ -103,6 +112,7 @@
         margin-right: 20px;
         font-size: 13px;
         cursor: pointer;
+        z-index: 5;
         }
 
         .result-cat {
@@ -110,18 +120,21 @@
         margin-left: 150px; 
         margin-bottom: 15px;
         cursor: pointer; 
+        z-index: 5;
         }
 
         .stns-icon {
         position: relative;
         left: 40px;
         cursor: pointer;
+        z-index: 5;
         }
 
         .tools-icon {
         position: relative;
         left: 40px;
         cursor: pointer;
+        z-index: 5;
         }
 
         .vds {
@@ -132,6 +145,7 @@
         width: 16px;
         height: 16px;
         cursor: pointer;
+        z-index: 5;
     }
 
         .img {
@@ -142,6 +156,7 @@
         width: 16px;
         height: 12px;
         cursor: pointer;
+        z-index: 5;
     }
 
         .news {
@@ -152,6 +167,7 @@
         width: 16px;
         height: 16px;
         cursor: pointer;
+        z-index: 5;
     }
 
         .books {
@@ -163,6 +179,7 @@
         width: 16px;
         height: 16px;
         cursor: pointer;
+        z-index: 5;
     }
 
         .more {
@@ -174,6 +191,7 @@
         width: 16px;
         height: 16px;
         cursor: pointer;
+        z-index: 5;
     }
 
         .more:hover {
@@ -201,7 +219,189 @@
         font-size: 14px;
         top: 50px;
         margin-left: 150px;
+        margin-bottom: 40px;
     }
+
+        .stats {
+        position: relative;
+        margin-bottom: 30px;
+        }
+
+
+        .search-results {
+        position: relative;
+        margin-left: 150px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        }
+
+        .result-title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(1, 32, 168);
+        font-size: 20px;
+        }
+
+        .ad1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 145, 43);
+        font-size: 17px;
+    }
+
+        .fa-sort-down {
+        color:rgb(0, 145, 43);
+        }
+
+        .result-body {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(119, 119, 119);
+    }
+
+        .result-body a {
+        line-height: 1.5;
+        }
+
+        .sub-result {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(1, 32, 168);
+        font-size: 20px;
+        position:relative;
+        top: 10px;
+        margin-left: 25px;
+        margin-right: 30px;        
+        display: inline-flex;
+        }
+
+        .description {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(119, 119, 119);
+        line-height: 1.5;
+        position:relative;
+        display: inline-flex;
+        top: 5px;
+        margin-left: 25px;
+        }
+
+        .sb2 {
+        text-align: left;
+        position:relative;
+        margin-left: 20px;
+        }
+
+
+        ul {
+        list-style: none;
+        }
+
+        .sub-body {
+        display: inline-flex;
+        }
+
+        .related-search {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        margin-left: -38px;
+        font-size: 17px;
+        color: rgb(1, 32, 168);
+        padding-bottom: 5px;
+        }
+
+        .related-search i {
+        margin-bottom: 10px;
+        }
+
+
+        .navbar {
+        background-color: rgba(240, 240, 240, 0.993);
+        overflow: visible;
+        bottom: 0;
+        width: 100%;
+        border-bottom: 1px solid #e7e7e7;
+        border-top: 1px solid #e7e7e7;
+        display: inline-flex;
+        z-index: 4;
+    }
+
+        .navbar .nav2 {
+        display: inline-flex;
+        }   
+
+        .navbar .nav-2 {
+        text-align: left;
+        margin-left: 150px;
+    }
+
+
+        .uppernav {
+        background-color: rgba(240, 240, 240, 0.993);
+        overflow: visible;
+        bottom: 40px;
+        width: 100%;
+        border-bottom: 1px solid #e7e7e7;
+        border-top: 1px solid #e7e7e7;
+        z-index: 4;     
+    }
+
+        .uppernav .nav11 {
+        color: #777676;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex;        
+        margin-left: 150px;
+    }
+
+        .uppernav .nav-location {
+        color: #2c2c2c;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex; 
+        font-weight: bold;       
+        margin-left: 5px;
+    }
+
+
+        .uppernav .nav-location2 {
+        color: #777676;
+        padding: 5px 14px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex;       
+        margin-left: -20px;
+    }
+
+    
+
+        .navbar a {
+        color: #777676;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif; 
+        
+    }
+
+        .navbar .nav-1 {
+        text-align: right;
+        float: right;
+        }
+
+        .navbar .nav1 {
+        position: absolute;
+        left: 79%;
+        display: inline-flex;
+        } 
+
+        .mock-results {
+        position: relative;
+        margin-left: 200px;
+        }
 
     </style>
 
@@ -259,12 +459,159 @@
                 <a class="tools-icon">Tools</a>
             </div>
         </div>
+
+        
     </div>
 
     <div class="stats">
         <a class="stat">About 144,000,000 results (0.54 seconds)</a>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
-    
 
+    <div class="search-results">
+        <div class="result-title">
+            <a class="result1">Build Your Website for Free | Create Your Stunning Free Website‎</a>
+        </div>
+
+        <div class="ad1">
+            <a >www.wix.com/‎</a>
+            <i class="fa fa-sort-down"></i>
+        </div>
+
+        <div class="result-body">
+            <a class="res">Wix makes <strong>building</strong> your <strong>website</strong> easy. Customize everything and get online now! Easy-to-</a>
+            <br>
+            <a class="res">add blog. SEO wizard. Free multilingual fonts. Traffic generation tools. 24/7 support center.</a>
+            <br>
+            <a class="res">Mobile optimized. Easy drag n’ drop. Advanced image editor. Customizable templates.</a>
+        </div>
+
+            <ul class="sub-body">
+                <li>
+                    <div class="sb">
+                            <a class="sub-result">Free Website Builder </a>
+                            <br>
+                            <a class="description">Build Your Own Free Website</a>
+                            <br>
+                            <a class="description">Easy to Use, Design a Site Online!</a>
+                            <br>
+                    </div>
+                </li>
+
+                <div class="sb2">
+                        <a class="sub-result">Online Store Builder</a>
+                        <br>
+                        <a class="description">Build Your Own Site in Minutes.</a>
+                        <br>
+                        <a class="description">Open Your Store & Start Selling!</a>
+                        <br>
+                </div>
+
+            </div>
+
+    </div>
+
+
+    <div class="search-results">
+        <div class="result-title">
+            <a class="result1">Build Your Website for Free | Create Your Stunning Free Website‎</a>
+        </div>
+
+        <div class="ad1">
+            <a >www.wix.com/‎</a>
+            <i class="fa fa-sort-down"></i>
+        </div>
+
+        <div class="result-body">
+            <a class="res">Wix makes <strong>building</strong> your <strong>website</strong> easy. Customize everything and get online now! Easy-to-</a>
+            <br>
+            <a class="res">add blog. SEO wizard. Free multilingual fonts. Traffic generation tools. 24/7 support center.</a>
+            <br>
+            <a class="res">Mobile optimized. Easy drag n’ drop. Advanced image editor. Customizable templates.</a>
+        </div>  
+    
+    </div>
+
+        <div class="search-results">
+            <div class="result-title">
+                <a class="result1">Build Your Website for Free | Create Your Stunning Free Website‎</a>
+            </div>
+
+            <div class="ad1">
+                <a >www.wix.com/‎</a>
+                <i class="fa fa-sort-down"></i>
+            </div>
+
+            <div class="result-body">
+                <a class="res">Wix makes <strong>building</strong> your <strong>website</strong> easy. Customize everything and get online now! Easy-to-</a>
+                <br>
+                <a class="res">add blog. SEO wizard. Free multilingual fonts. Traffic generation tools. 24/7 support center.</a>
+                <br>
+                <a class="res">Mobile optimized. Easy drag n’ drop. Advanced image editor. Customizable templates.</a>
+            </div>  
+
+        </div>
+    
+        <div class="search-results">
+            <div class="result-title">
+                <a class="result1">Build Your Website for Free | Create Your Stunning Free Website‎</a>
+            </div>
+
+            <div class="ad1">
+                <a >www.wix.com/‎</a>
+                <i class="fa fa-sort-down"></i>
+            </div>
+
+            <div class="result-body">
+                <a class="res">Wix makes <strong>building</strong> your <strong>website</strong> easy. Customize everything and get online now! Easy-to-</a>
+                <br>
+                <a class="res">add blog. SEO wizard. Free multilingual fonts. Traffic generation tools. 24/7 support center.</a>
+                <br>
+                <a class="res">Mobile optimized. Easy drag n’ drop. Advanced image editor. Customizable templates.</a>
+            </div>  
+    
+            </div>
+
+        <div class="search-results">
+            <div class="result-title">
+                <a class="result1">Searches related to build this webpage‎</a>
+            </div>
+
+            <ul class="related-search">
+                <li class="r-s">creating a website for your business</li>
+                <li class="r-s">how to create a website pdf notes</li>
+                <li class="r-s">how to create a website free on google pdf</li>
+                <li class="r-s">how to create a website using html on notepad pdf</li>
+                <li class="r-s">how to create a website pdf notes</li>
+                <li class="r-s">how to create a website free on google pdf</li>        
+            </ul>  
+
+            <img class="mock-results" src="google.png">
+
+        </div>
+
+    
+   <div class="footer">
+
+        <div class="uppernav">
+            <a class="nav11">Nigeria</a>
+            <a class="nav">|</a>
+            <a class="nav-location">Ikoyi, Lagos</a>            
+            <a class="nav-location2">- Based on your past activity - Use precise location - Learn more</a>
+        </div>
+        <div class="navbar">
+            <div class="nav-2">
+                <div class="nav2">
+                    <a href="#">Help</a>
+                    <a href="#">Send feedback</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+            
+    </div>
     
 </body>
