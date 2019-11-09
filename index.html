@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">;
+
+    <style>
+        .g-logo {
+        background-image: url('g-logo.png');
+        border: none;
+        width: 92px;
+        height: 30px;
+        margin-top: 25px;
+        margin-left: 13px;
+        
+        }
+
+        .header {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        top: 0px;
+        background-color: rgba(255, 255, 255, 0.993);
+        }
+
+        .srch {
+        width: 620px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 20px;
+        outline: none;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 25px;
+        z-index: 3;
+        height: 15px;
+        margin-top: -8px;
+        margin-left: 130px;
+        transition: box-shadow .3s;
+        text-indent: 30px;
+        display: inline-block;
+        }
+
+        .srch:hover {
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+
+
+        .apps-btn {
+        background-image: url('g-app.png');
+        position: relative;
+        top: 5px;   
+        left: -60px;    
+        height: 15px;
+        width: 15px;
+        border: none;
+        color: white;  
+        cursor: pointer;
+        color: #000;
+    }
+
+        .contact-btn {
+        background-image: url('contact-image.png');
+        position: relative;
+        top: -3px;
+        left: -40px;
+        height: 30px;
+        width: 30px;
+        border: none;
+        color: white;  
+        cursor: pointer;
+    }
+
+        .ggle-container {
+        text-align: right;
+    }
+    
+        .ggle {
+        display:inline-flex;
+    }
+
+        .mic .fa-search {
+        position: relative;
+        color:rgba(46, 43, 255, 0.664);
+        font-size: 18px;        
+        margin-left: 750px;
+        top: -25px;
+        z-index: 4;
+        }
+
+        .navigation-tab {
+        width: 100%;
+        top: 40px;
+        overflow: hidden;
+        position: relative;
+        border-bottom: 1px solid #ebebeb;
+        z-index: 102;
+        }
+
+        .result-cat a {
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgba(117, 117, 117, 0.993);
+        margin-left: 15px;
+        margin-right: 20px;
+        font-size: 13px;
+        cursor: pointer;
+        }
+
+        .result-cat {
+        position: relative;
+        margin-left: 150px; 
+        margin-bottom: 15px;
+        cursor: pointer; 
+        }
+
+        .stns-icon {
+        position: relative;
+        left: 40px;
+        cursor: pointer;
+        }
+
+        .tools-icon {
+        position: relative;
+        left: 40px;
+        cursor: pointer;
+        }
+
+        .vds {
+        background-image: url('video-icon.png');
+        position: relative;
+        margin-right: -15px;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+        .img {
+        background-image: url('images-icon.png');
+        position: relative;
+        margin-right: -15px;
+        top: 2px;
+        width: 16px;
+        height: 12px;
+        cursor: pointer;
+    }
+
+        .news {
+        background-image: url('news-icon.png');
+        position: relative;
+        margin-right: -15px;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+        .books {
+        background-image: url('books-icon.png');
+        position: relative;
+        background-color: transparent;
+        margin-right: -15px;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+        .more {
+        background-image: url('more-icon.png');
+        border: none;
+        position: relative;
+        margin-right: -15px;
+        top: 2px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+        .more:hover {
+        color: rgb(3, 41, 212);
+    }
+
+        .result-cat i {
+        position: relative;
+        margin-right: -15px;
+        top: 0.8px;
+        font-size: 15px;
+        width: 16px;
+        height: 16px;
+        color:rgba(46, 43, 255, 0.664);
+    }
+
+        .result-cat a:hover {
+        color: rgb(3, 41, 212);
+    }
+
+        .stat {
+        position:relative;
+        font-family:Arial, Helvetica, sans-serif;
+        color:rgb(163, 163, 163);
+        font-size: 14px;
+        top: 50px;
+        margin-left: 150px;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="g-icon">
+            <div class="g-logo">
+                <input class="srch" type="text">
+            </div>
+        </div>
+
+        <div class="mic">
+            <a class="mic-icon"></a>
+
+            <i class="fa fa-search"></i>
+        </div>
+        </div>
+
+        <div class="ggle-container">
+            <div class="ggle">
+                    <a class="apps-btn" role="button"></a>
+
+                    <a class="contact-btn" role="button"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation-tab">
+        <div class="result-cat">
+            <div class="all">
+                <i class="fa fa-search"></i>
+                
+                <a class="all-icon">All</a>
+            
+                <img class="vds">
+                <a class="vds-icon">Videos</a>
+                
+                <img class="img">
+                <a class="img-icon">Images</a>
+            
+                <img class="news">
+                <a class="news-icon">News</a>
+            
+                <img class="books">
+                <a class="bks-icon">Books</a>
+                
+                <img class="more">
+                <a class="more-icon">More</a>
+            
+                <a class="stns-icon">Settings</a>
+            
+                <a class="tools-icon">Tools</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats">
+        <a class="stat">About 144,000,000 results (0.54 seconds)</a>
+    </div>
+    
+
+    
+</body>
